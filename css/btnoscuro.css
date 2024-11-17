@@ -1,0 +1,30 @@
+/* Estilos iniciales del modo claro */
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Modo oscuro */
+  body.dark-mode {
+    background-color: #1a1919; /* FONDO DEL JS OSCURO*/
+    color: rgb(0, 0, 0); /* COLOR DE TEXTO AL PRESIONAR EL BOTON*/
+  }
+  
+  /* Estilo del botón */
+  #modeToggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #ff9900;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #modeToggle:hover {
+    background-color: #b30000;
+  }  

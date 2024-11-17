@@ -1,0 +1,77 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h1, h2 {
+    margin: 0;
+    padding: 10px;
+    color: #333;
+}
+
+/* Contenedor principal */
+.contenedor-perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Estilo para el título */
+.titulo h1 {
+    font-size: 2.5em;
+    color: #e73018; /* Verde */
+    text-align: center;
+}
+
+/* Contenedor de los datos de usuario */
+.datos-usuario {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.datos-usuario h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.datos-usuario ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.datos-usuario li {
+    margin: 10px 0;
+    font-size: 1.1em;
+}
+
+/* Contenedor del carrito */
+.carrito {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 500px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.carrito h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.carrito p {
+    font-size: 1.2em;
+    color: #888;
+}

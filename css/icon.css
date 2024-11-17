@@ -1,0 +1,6 @@
+/* Estilo para las imágenes de los íconos */
+.menu-icon {
+    width: 20px;                /* Ajusta el tamaño de la imagen */
+    height: 20px;
+    margin-right: 10px;         /* Espacio entre la imagen y el texto */
+}

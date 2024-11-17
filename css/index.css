@@ -1,0 +1,96 @@
+/* Estilos para el formulario */
+body {
+    background-image: url('../img/wallpap.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+/* H1 alineado a la izquierda */
+h1 {
+    text-align: left; /* Alineación a la izquierda */
+    margin-left: 20px; /* Margen izquierdo para separar del borde */
+}
+h1 {
+    text-align: left;
+    margin-left: 20px;
+    padding-top: 80px; /* Agrega espacio en la parte superior */
+}
+
+/* Alinear el formulario a la derecha */
+.formulario-seccion {
+    max-width: 280px;
+    margin: 0;
+    padding: 15px;
+    background-color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: absolute; /* Usamos posición absoluta para mover el formulario */
+    right: 20px; /* Posicionamos el formulario a la derecha */
+    top: 50%; /* Centrado verticalmente */
+    transform: translateY(-50%); /* Ajustamos para que quede completamente centrado */
+}
+
+/* Formulario */
+.formulario {
+    width: 100%;
+}
+
+/* Estilo del título del formulario */
+h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Campo del formulario */
+.campo {
+    margin-bottom: 15px;
+}
+
+/* Etiqueta del formulario */
+label {
+    display: inline-block;
+    width: 30%;
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: left;
+}
+
+/* Estilo de los campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 65%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border: 3px solid #3a03ff;
+    border-radius: 1px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+/* Estilo del botón de enviar */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #1160f3;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #000000;
+}
